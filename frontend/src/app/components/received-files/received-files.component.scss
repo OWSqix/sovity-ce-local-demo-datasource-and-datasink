@@ -1,0 +1,223 @@
+/* src/app/components/received-files/received-files.component.scss */
+
+.received-files-container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.main-card {
+  flex: 1;
+  min-width: 0; // Prevents flex item from exceeding the container
+}
+
+.details-card {
+  width: 300px;
+  height: fit-content;
+  position: sticky;
+  top: 16px;
+}
+
+.title-container {
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    color: rgba(0, 0, 0, 0.54);
+    margin: 0;
+  }
+}
+
+.actions-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  .left-actions {
+    display: flex;
+    gap: 8px;
+  }
+
+  .right-actions {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-field {
+    width: 250px;
+    margin-bottom: 0;
+  }
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  gap: 16px;
+}
+
+.error-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  gap: 16px;
+  color: #f44336;
+  text-align: center;
+
+  mat-icon {
+    font-size: 36px;
+    height: 36px;
+    width: 36px;
+  }
+
+  button {
+    margin-top: 8px;
+  }
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0;
+  color: rgba(0, 0, 0, 0.54);
+
+  .empty-icon {
+    font-size: 48px;
+    height: 48px;
+    width: 48px;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.file-table {
+  width: 100%;
+
+  .mat-mdc-row {
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+  }
+
+  .selected-row {
+    background-color: rgba(63, 81, 181, 0.12);
+  }
+}
+
+// File type icons
+.icon-document {
+  color: #2196F3;
+}
+
+.icon-image {
+  color: #4CAF50;
+}
+
+.icon-pdf {
+  color: #F44336;
+}
+
+.icon-spreadsheet {
+  color: #4CAF50;
+}
+
+.icon-archive {
+  color: #795548;
+}
+
+.icon-audio {
+  color: #FF9800;
+}
+
+.icon-video {
+  color: #9C27B0;
+}
+
+.icon-code {
+  color: #607D8B;
+}
+
+.download-progress {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #E3F2FD;
+
+  .progress-info {
+    margin-bottom: 8px;
+  }
+}
+
+.file-preview {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+
+  .preview-icon {
+    font-size: 84px;
+    height: 84px;
+    width: 84px;
+  }
+}
+
+.file-info {
+  margin-bottom: 24px;
+
+  p {
+    margin: 8px 0;
+  }
+}
+
+.file-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.close-button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+// Responsive adjustments
+@media (max-width: 960px) {
+  .received-files-container {
+    flex-direction: column;
+  }
+
+  .details-card {
+    width: 100%;
+  }
+
+  .actions-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+
+    .left-actions, .right-actions {
+      width: 100%;
+    }
+
+    .search-field {
+      width: 100%;
+    }
+  }
+}

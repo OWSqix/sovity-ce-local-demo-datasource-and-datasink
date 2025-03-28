@@ -67,7 +67,7 @@ export class LoginComponent {
     this.auth.login(this.username, this.password).subscribe({
       next: (res) => {
         this.auth.saveToken(res.token);
-        this.router.navigate(['/files']);
+        void this.router.navigate(['/files']);
       },
       error: (err) => {
         this.errorMsg = 'Login failed: ' + (err.error?.detail || 'Invalid credentials');

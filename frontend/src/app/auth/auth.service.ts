@@ -75,6 +75,27 @@ export class AuthService {
     );
   }
 
+  isTokenExpired(token: string): boolean {
+    // A simple implementation to check token expiration
+    try {
+      // This is a simplified version - in a real app, use a library like jwt-decode
+      const base64Url = token.split('.')[1];
+      const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+      const jsonPayload = decodeURIComponent(atob(base64).split('').map(c => {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+      }).join(''));
+
+      const payload = JSON.parse(jsonPayload);
+      const expiry = payload.exp;
+
+      return expiry ? (Date.now() >= expiry * 1000) : false;
+    } catch (e) {
+      // If we can't decode the token, assume it's expired
+      console.error('Error checking token expiration:', e);
+      return true;
+    }
+  }
+
   private updateUserState(token: string | null): void {
     if (!token) {
       this.userSubject.next(null);

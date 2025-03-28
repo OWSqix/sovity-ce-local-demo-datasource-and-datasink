@@ -1,14 +1,54 @@
-<!-- frontend/src/app/app.component.html -->
-<nav *ngIf="auth.isLoggedIn()" class="app-nav">
-  <a routerLink="/files" routerLinkActive="active">My Files</a>
-  <a routerLink="/received" routerLinkActive="active">Received Files</a>
-  <a href="#" (click)="logout($event)">Logout</a>
-</nav>
+<mat-toolbar color="primary" class="app-header">
+  <div class="brand-container">
+    <span class="app-title">Data space connector data-source</span>
+  </div>
 
-<!-- 인증되지 않은 상태(로그인 전)이면 안내 문구 -->
-<div *ngIf="!auth.isLoggedIn()" class="not-logged-in">
-  <p>로그인이 필요합니다.</p>
+  <span class="spacer"></span>
+
+  <div *ngIf="auth.isLoggedIn()" class="nav-links">
+    <button mat-button routerLink="/files" routerLinkActive="active-link">
+      <mat-icon>folder</mat-icon>
+      <span>My Files</span>
+    </button>
+
+    <button mat-button routerLink="/received" routerLinkActive="active-link">
+      <mat-icon>download</mat-icon>
+      <span>Received Files</span>
+    </button>
+
+    <button mat-button [matMenuTriggerFor]="userMenu">
+      <mat-icon>account_circle</mat-icon>
+      <span>{{ username }}</span>
+      <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+
+    <mat-menu #userMenu="matMenu">
+      <button mat-menu-item (click)="openUserProfile()">
+        <mat-icon>person</mat-icon>
+        <span>Profile</span>
+      </button>
+      <button mat-menu-item (click)="confirmLogout()">
+        <mat-icon>exit_to_app</mat-icon>
+        <span>Logout</span>
+      </button>
+    </mat-menu>
+  </div>
+</mat-toolbar>
+
+<div class="app-container">
+  <div *ngIf="!auth.isLoggedIn()" class="login-prompt">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Welcome to Data Space Connector</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Please log in to access your data connector dashboard.</p>
+        <button mat-raised-button color="primary" routerLink="/login">
+          Login
+        </button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <router-outlet></router-outlet>
 </div>
-
-<!-- 라우팅 영역 -->
-<router-outlet></router-outlet>
