@@ -2,11 +2,9 @@
 
 import os
 import sys
-import logging
 from fastapi import APIRouter, HTTPException, Depends, status
 from fastapi.security import OAuth2PasswordBearer
 from datetime import datetime, timedelta
-from typing import Optional
 import jwt  # PyJWT
 from passlib.context import CryptContext  # For password hashing
 from backend.data_source.models import UserCreate, UserLogin
@@ -19,6 +17,8 @@ if backend_dir not in sys.path:
 
 # 로거 설정
 from backend.common.logging_utils import setup_logger
+# 공유 사용자 DB 사용
+from backend.common.auth_store import users_db, JWT_SECRET_KEY, JWT_ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
 
 logger = setup_logger("data_source.auth")
 
@@ -27,15 +27,10 @@ router = APIRouter(prefix="/auth")
 # Password hashing using passlib
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-# In-memory user store: {username: hashed_password}
-# In production, use a database instead
-users_db = {}
-
 # Secret key for JWT - Use environment variables in production
 # Generate a secure random key, don't use this example key
-SECRET_KEY = os.environ.get("JWT_SECRET_KEY", "SUPER_SECRET_JWT_KEY")
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 60
+SECRET_KEY = os.environ.get("JWT_SECRET_KEY", JWT_SECRET_KEY)
+ALGORITHM = JWT_ALGORITHM
 
 # Dependency to get current user from token
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")

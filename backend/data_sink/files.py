@@ -4,7 +4,7 @@ import os
 import sys
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import FileResponse
-from backend.data_source.auth import get_current_user  # 데이터 소스에서 인증 의존성 및 JWT 설정 재사용
+from backend.data_sink.auth import get_current_user
 from backend.data_source.models import FileInfo, DirectoryContents, DATA_DIR
 
 # common 모듈을 사용할 수 있도록 경로 조정
@@ -21,7 +21,7 @@ logger = setup_logger("data_sink.files")
 router = APIRouter(prefix="/received")
 
 # 수신된 파일 저장 디렉토리
-RECEIVED_DIR = os.path.join(DATA_DIR, "received")
+RECEIVED_DIR = os.path.join(DATA_DIR, "Received Files")
 os.makedirs(RECEIVED_DIR, exist_ok=True)
 logger.debug(f"수신 파일 디렉토리 확인: {RECEIVED_DIR}")
 

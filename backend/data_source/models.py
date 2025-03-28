@@ -20,3 +20,6 @@ class DirectoryContents(BaseModel):
     path: str
     directories: list[str]
     files: list[FileInfo]
+
+class DirectoryRequest(BaseModel):
+    path: str

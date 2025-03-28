@@ -4,7 +4,7 @@ import os
 import sys
 import shutil
 from fastapi import APIRouter, UploadFile, File, Form, Depends, HTTPException
-from backend.data_source.models import DirectoryContents, FileInfo, DATA_DIR
+from backend.data_source.models import DirectoryContents, FileInfo, DATA_DIR, DirectoryRequest
 from backend.data_source.auth import get_current_user
 from typing import Optional
 
@@ -91,8 +91,9 @@ def upload_file(dir: Optional[str] = Form(None), file: UploadFile = File(...), u
 
 
 @router.post("/mkdir", dependencies=[Depends(get_current_user)])
-def create_directory(path: str, user: str = Depends(get_current_user)):
+def create_directory(request: DirectoryRequest, user: str = Depends(get_current_user)):
     """새 디렉토리 생성 (DATA_DIR 하위 상대 경로)."""
+    path = request.path
     logger.debug(f"디렉토리 생성 요청: '{path}' (사용자: {user})")
 
     new_dir_path = safe_path(path)

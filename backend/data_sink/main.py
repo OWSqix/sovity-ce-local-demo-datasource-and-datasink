@@ -61,6 +61,7 @@ app.add_middleware(
 # 라우터 임포트 및 포함
 from backend.data_sink import files as files_router
 from backend.data_sink import receive as receive_router
+from backend.data_source.auth import router as auth_router
 
 
 # 시작 이벤트 핸들러 추가
@@ -79,10 +80,18 @@ async def startup_event():
     else:
         logger.debug(f"수신된 파일 디렉토리 확인됨: {RECEIVED_DIR}")
 
+    MY_FILES_DIR = os.path.join("./data", "My Files")
+    if not os.path.isdir(MY_FILES_DIR):
+        os.makedirs(MY_FILES_DIR, exist_ok=True)
+        logger.info(f"수신된 파일 디렉토리 생성됨: {MY_FILES_DIR}")
+    else:
+        logger.debug(f"수신된 파일 디렉토리 확인됨: {MY_FILES_DIR}")
+
 
 # 라우터 등록
 app.include_router(receive_router.router)
 app.include_router(files_router.router)
+app.include_router(auth_router)
 
 # 앱 실행 코드 (직접 실행 시)
 if __name__ == "__main__":
