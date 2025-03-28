@@ -2,6 +2,6 @@
 
 export const environment = {
   production: false,
-  dataSourceApiUrl: 'http://localhost:8000',  // Base URL for Data Source backend
-  dataSinkApiUrl: 'http://localhost:8001'     // Base URL for Data Sink backend
+  dataSourceApiUrl: 'http://127.0.0.1:8003',  // Base URL for Data Source backend
+  dataSinkApiUrl: 'http://127.0.0.1:8002'     // Base URL for Data Sink backend
 };

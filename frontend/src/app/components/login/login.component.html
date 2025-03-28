@@ -2,23 +2,79 @@
 <div class="login-container">
   <mat-card class="login-card">
     <mat-card-header>
-      <mat-card-title>Log In</mat-card-title>
+      <mat-card-title>{{ isLoginMode ? 'Log In' : 'Register' }}</mat-card-title>
     </mat-card-header>
+
     <mat-card-content>
-      <form (ngSubmit)="onLogin()" #loginForm="ngForm">
+      <form (ngSubmit)="onSubmit()" #authForm="ngForm">
+        <!-- Display error message if there is one -->
+        <div *ngIf="errorMsg" class="error-message">
+          {{ errorMsg }}
+        </div>
+
         <mat-form-field appearance="fill" class="full-width">
           <mat-label>Username</mat-label>
-          <input matInput name="username" ngModel required />
+          <input
+            matInput
+            name="username"
+            [(ngModel)]="username"
+            required
+            #usernameInput="ngModel" />
+          <mat-error *ngIf="usernameInput.invalid && usernameInput.touched">
+            Username is required
+          </mat-error>
         </mat-form-field>
+
         <mat-form-field appearance="fill" class="full-width">
           <mat-label>Password</mat-label>
-          <input matInput type="password" name="password" ngModel required />
+          <input
+            matInput
+            type="password"
+            name="password"
+            [(ngModel)]="password"
+            required
+            minlength="6"
+            #passwordInput="ngModel" />
+          <mat-error *ngIf="passwordInput.errors?.['required'] && passwordInput.touched">
+            Password is required
+          </mat-error>
+          <mat-error *ngIf="passwordInput.errors?.['minlength'] && passwordInput.touched">
+            Password must be at least 6 characters
+          </mat-error>
         </mat-form-field>
-        <button mat-raised-button color="primary" class="full-width">
-          Log In
-        </button>
+
+        <!-- Confirm password field (only shown during registration) -->
+        <mat-form-field *ngIf="!isLoginMode" appearance="fill" class="full-width">
+          <mat-label>Confirm Password</mat-label>
+          <input
+            matInput
+            type="password"
+            name="confirmPassword"
+            [(ngModel)]="confirmPassword"
+            required
+            #confirmPasswordInput="ngModel" />
+          <mat-error *ngIf="confirmPasswordInput.touched && password !== confirmPassword">
+            Passwords do not match
+          </mat-error>
+        </mat-form-field>
+
+        <div class="form-actions">
+          <button
+            mat-raised-button
+            color="primary"
+            type="submit"
+            class="full-width"
+            [disabled]="!authForm.valid || (!isLoginMode && password !== confirmPassword)">
+            {{ isLoginMode ? 'Log In' : 'Register' }}
+          </button>
+        </div>
       </form>
+
+      <div class="toggle-mode">
+        <button mat-button type="button" (click)="toggleMode()">
+          {{ isLoginMode ? 'Create New Account' : 'Back to Login' }}
+        </button>
+      </div>
     </mat-card-content>
   </mat-card>
 </div>
-
