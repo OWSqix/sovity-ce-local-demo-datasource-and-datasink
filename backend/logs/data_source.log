@@ -1,0 +1,65 @@
+2025-03-28 13:56:57,021 - data_sink - INFO - [main.py:90] - Uvicorn으로 Data Sink API 서비스 실행 중...
+2025-03-28 13:57:21,043 - data_sink - INFO - [main.py:90] - Uvicorn으로 Data Sink API 서비스 실행 중...
+2025-03-28 13:57:21,363 - uvicorn.error - INFO - [server.py:83] - Started server process [188874]
+2025-03-28 13:57:21,363 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 13:57:21,364 - data_source - INFO - [main.py:72] - Data Source API 서비스가 시작되었습니다.
+2025-03-28 13:57:21,364 - data_source - INFO - [main.py:73] - 호스트: 127.0.0.1, 포트: 8003
+2025-03-28 13:57:21,364 - data_source - INFO - [main.py:74] - 로그 레벨: debug
+2025-03-28 13:57:21,365 - data_source - DEBUG - [main.py:82] - 기본 데이터 디렉토리 확인됨: ./data
+2025-03-28 13:57:21,365 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:05:38,066 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:05:38,167 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:05:38,167 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:05:38,168 - uvicorn.error - INFO - [server.py:93] - Finished server process [188874]
+2025-03-28 14:05:38,648 - uvicorn.error - INFO - [server.py:83] - Started server process [195183]
+2025-03-28 14:05:38,650 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:05:38,650 - data_sink - INFO - [main.py:70] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:05:38,650 - data_sink - INFO - [main.py:71] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:05:38,650 - data_sink - INFO - [main.py:72] - 로그 레벨: debug
+2025-03-28 14:05:38,651 - data_sink - DEBUG - [main.py:80] - 수신된 파일 디렉토리 확인됨: ./data/received
+2025-03-28 14:05:38,652 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:05:56,748 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:05:56,849 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:05:56,849 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:05:56,849 - uvicorn.error - INFO - [server.py:93] - Finished server process [195183]
+2025-03-28 14:05:57,208 - uvicorn.error - INFO - [server.py:83] - Started server process [195441]
+2025-03-28 14:05:57,208 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:05:57,208 - data_sink - INFO - [main.py:70] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:05:57,208 - data_sink - INFO - [main.py:71] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:05:57,209 - data_sink - INFO - [main.py:72] - 로그 레벨: debug
+2025-03-28 14:05:57,210 - data_sink - DEBUG - [main.py:80] - 수신된 파일 디렉토리 확인됨: ./data/received
+2025-03-28 14:05:57,210 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:06:03,631 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:06:03,739 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:06:03,739 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:06:03,740 - uvicorn.error - INFO - [server.py:93] - Finished server process [195441]
+2025-03-28 14:06:04,059 - uvicorn.error - INFO - [server.py:83] - Started server process [195485]
+2025-03-28 14:06:04,060 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:06:04,060 - data_sink - INFO - [main.py:70] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:06:04,060 - data_sink - INFO - [main.py:71] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:06:04,061 - data_sink - INFO - [main.py:72] - 로그 레벨: debug
+2025-03-28 14:06:04,062 - data_sink - DEBUG - [main.py:80] - 수신된 파일 디렉토리 확인됨: ./data/received
+2025-03-28 14:06:04,062 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:06:55,170 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:49620 - "OPTIONS /received HTTP/1.1" 200
+2025-03-28 14:06:55,180 - data_sink - DEBUG - [main.py:46] - Request: GET /received
+2025-03-28 14:06:55,181 - data_sink - DEBUG - [main.py:48] - Response: GET /received - Status: 307
+2025-03-28 14:06:55,181 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:49620 - "GET /received HTTP/1.1" 307
+2025-03-28 14:06:55,184 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:49620 - "OPTIONS /received/ HTTP/1.1" 200
+2025-03-28 14:06:55,186 - data_sink - DEBUG - [main.py:46] - Request: GET /received/
+2025-03-28 14:06:55,187 - data_source.auth - WARNING - [auth.py:60] - Invalid username in token or user not found: admin
+2025-03-28 14:06:55,188 - data_sink - DEBUG - [main.py:48] - Response: GET /received/ - Status: 401
+2025-03-28 14:06:55,189 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:49636 - "GET /received/ HTTP/1.1" 401
+2025-03-28 14:10:09,227 - data_sink - DEBUG - [main.py:46] - Request: GET /received
+2025-03-28 14:10:09,228 - data_sink - DEBUG - [main.py:48] - Response: GET /received - Status: 307
+2025-03-28 14:10:09,228 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:47782 - "GET /received HTTP/1.1" 307
+2025-03-28 14:10:09,268 - data_sink - DEBUG - [main.py:46] - Request: GET /received/
+2025-03-28 14:10:09,269 - data_source.auth - WARNING - [auth.py:60] - Invalid username in token or user not found: admin
+2025-03-28 14:10:09,270 - data_sink - DEBUG - [main.py:48] - Response: GET /received/ - Status: 401
+2025-03-28 14:10:09,270 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:47782 - "GET /received/ HTTP/1.1" 401
+2025-03-28 14:10:47,344 - data_sink - DEBUG - [main.py:46] - Request: GET /received
+2025-03-28 14:10:47,344 - data_sink - DEBUG - [main.py:48] - Response: GET /received - Status: 307
+2025-03-28 14:10:47,344 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:49292 - "GET /received HTTP/1.1" 307
+2025-03-28 14:10:47,349 - data_sink - DEBUG - [main.py:46] - Request: GET /received/
+2025-03-28 14:10:47,350 - data_source.auth - WARNING - [auth.py:60] - Invalid username in token or user not found: admin
+2025-03-28 14:10:47,350 - data_sink - DEBUG - [main.py:48] - Response: GET /received/ - Status: 401
+2025-03-28 14:10:47,351 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:49292 - "GET /received/ HTTP/1.1" 401

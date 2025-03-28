@@ -1,0 +1,238 @@
+2025-03-28 13:56:57,021 - data_source - INFO - [main.py:89] - Uvicorn으로 Data Source API 서비스 실행 중...
+2025-03-28 13:57:21,036 - data_source - INFO - [main.py:89] - Uvicorn으로 Data Source API 서비스 실행 중...
+2025-03-28 13:57:21,369 - uvicorn.error - INFO - [server.py:83] - Started server process [188873]
+2025-03-28 13:57:21,370 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 13:57:21,370 - data_sink - INFO - [main.py:69] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 13:57:21,370 - data_sink - INFO - [main.py:70] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 13:57:21,371 - data_sink - INFO - [main.py:71] - 로그 레벨: debug
+2025-03-28 13:57:21,372 - data_sink - DEBUG - [main.py:79] - 수신된 파일 디렉토리 확인됨: ./data/received
+2025-03-28 13:57:21,372 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 13:57:49,386 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:58052 - "OPTIONS /auth/login HTTP/1.1" 200
+2025-03-28 13:57:49,391 - data_sink - DEBUG - [main.py:45] - Request: POST /auth/login
+2025-03-28 13:57:49,391 - data_sink - DEBUG - [main.py:47] - Response: POST /auth/login - Status: 404
+2025-03-28 13:57:49,392 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:58052 - "POST /auth/login HTTP/1.1" 404
+2025-03-28 13:57:57,297 - data_sink - DEBUG - [main.py:45] - Request: POST /auth/login
+2025-03-28 13:57:57,298 - data_sink - DEBUG - [main.py:47] - Response: POST /auth/login - Status: 404
+2025-03-28 13:57:57,298 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:58062 - "POST /auth/login HTTP/1.1" 404
+2025-03-28 13:57:58,477 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:58062 - "OPTIONS /auth/register HTTP/1.1" 200
+2025-03-28 13:57:58,479 - data_sink - DEBUG - [main.py:45] - Request: POST /auth/register
+2025-03-28 13:57:58,479 - data_sink - DEBUG - [main.py:47] - Response: POST /auth/register - Status: 404
+2025-03-28 13:57:58,480 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:58062 - "POST /auth/register HTTP/1.1" 404
+2025-03-28 14:05:38,167 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:05:38,272 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:05:38,273 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:05:38,273 - uvicorn.error - INFO - [server.py:93] - Finished server process [188873]
+2025-03-28 14:05:38,644 - uvicorn.error - INFO - [server.py:83] - Started server process [195184]
+2025-03-28 14:05:38,645 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:05:38,646 - data_sink - INFO - [main.py:69] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:05:38,646 - data_sink - INFO - [main.py:70] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:05:38,646 - data_sink - INFO - [main.py:71] - 로그 레벨: debug
+2025-03-28 14:05:38,647 - data_sink - DEBUG - [main.py:79] - 수신된 파일 디렉토리 확인됨: ./data/received
+2025-03-28 14:05:38,648 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:05:56,786 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:05:56,886 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:05:56,887 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:05:56,887 - uvicorn.error - INFO - [server.py:93] - Finished server process [195184]
+2025-03-28 14:05:57,227 - uvicorn.error - INFO - [server.py:83] - Started server process [195442]
+2025-03-28 14:05:57,227 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:05:57,228 - data_source - INFO - [main.py:73] - Data Source API 서비스가 시작되었습니다.
+2025-03-28 14:05:57,228 - data_source - INFO - [main.py:74] - 호스트: 127.0.0.1, 포트: 8003
+2025-03-28 14:05:57,228 - data_source - INFO - [main.py:75] - 로그 레벨: debug
+2025-03-28 14:05:57,229 - data_source - DEBUG - [main.py:83] - 기본 데이터 디렉토리 확인됨: ./data
+2025-03-28 14:05:57,229 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:06:03,558 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:06:03,659 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:06:03,659 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:06:03,659 - uvicorn.error - INFO - [server.py:93] - Finished server process [195442]
+2025-03-28 14:06:04,001 - uvicorn.error - INFO - [server.py:83] - Started server process [195484]
+2025-03-28 14:06:04,002 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:06:04,002 - data_source - INFO - [main.py:73] - Data Source API 서비스가 시작되었습니다.
+2025-03-28 14:06:04,002 - data_source - INFO - [main.py:74] - 호스트: 127.0.0.1, 포트: 8003
+2025-03-28 14:06:04,003 - data_source - INFO - [main.py:75] - 로그 레벨: debug
+2025-03-28 14:06:04,003 - data_source - DEBUG - [main.py:83] - 기본 데이터 디렉토리 확인됨: ./data
+2025-03-28 14:06:04,003 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:06:23,518 - data_source - DEBUG - [main.py:46] - Request: POST /auth/login
+2025-03-28 14:06:23,519 - data_source.auth - INFO - [auth.py:104] - Login attempt for username: admin
+2025-03-28 14:06:23,520 - data_source.auth - WARNING - [auth.py:109] - Login failed: User not found: admin
+2025-03-28 14:06:23,520 - data_source - DEBUG - [main.py:48] - Response: POST /auth/login - Status: 401
+2025-03-28 14:06:23,520 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:52814 - "POST /auth/login HTTP/1.1" 401
+2025-03-28 14:06:30,163 - data_source - DEBUG - [main.py:46] - Request: POST /auth/register
+2025-03-28 14:06:30,165 - data_source.auth - INFO - [auth.py:82] - Registration attempt for username: admin
+2025-03-28 14:06:30,331 - data_source.auth - INFO - [auth.py:97] - User registered successfully: admin
+2025-03-28 14:06:30,331 - data_source - DEBUG - [main.py:48] - Response: POST /auth/register - Status: 201
+2025-03-28 14:06:30,331 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57518 - "POST /auth/register HTTP/1.1" 201
+2025-03-28 14:06:30,336 - data_source - DEBUG - [main.py:46] - Request: POST /auth/login
+2025-03-28 14:06:30,337 - data_source.auth - INFO - [auth.py:104] - Login attempt for username: admin
+2025-03-28 14:06:30,486 - data_source.auth - INFO - [auth.py:126] - User logged in successfully: admin
+2025-03-28 14:06:30,486 - data_source.auth - DEBUG - [auth.py:127] - Token issued for user: admin, expires in 60 minutes
+2025-03-28 14:06:30,487 - data_source - DEBUG - [main.py:48] - Response: POST /auth/login - Status: 200
+2025-03-28 14:06:30,487 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57518 - "POST /auth/login HTTP/1.1" 200
+2025-03-28 14:06:30,533 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57518 - "OPTIONS /files HTTP/1.1" 200
+2025-03-28 14:06:30,536 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57520 - "OPTIONS /files HTTP/1.1" 200
+2025-03-28 14:06:30,537 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:06:30,537 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:06:30,538 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57528 - "GET /files HTTP/1.1" 307
+2025-03-28 14:06:30,541 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:06:30,542 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:06:30,542 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57528 - "GET /files HTTP/1.1" 307
+2025-03-28 14:06:30,552 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57528 - "OPTIONS /files?dir=My%20Files HTTP/1.1" 200
+2025-03-28 14:06:30,554 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:06:30,554 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:06:30,555 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57520 - "GET /files?dir=My%20Files HTTP/1.1" 307
+2025-03-28 14:06:30,569 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57520 - "OPTIONS /files/ HTTP/1.1" 200
+2025-03-28 14:06:30,570 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57538 - "OPTIONS /files/?dir=My%20Files HTTP/1.1" 200
+2025-03-28 14:06:30,571 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57550 - "OPTIONS /files/ HTTP/1.1" 200
+2025-03-28 14:06:30,572 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:06:30,572 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:06:30,573 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:06:30,573 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:06:30,574 - data_source.files - WARNING - [files.py:47] - 존재하지 않는 디렉토리 요청: My Files
+2025-03-28 14:06:30,575 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 404
+2025-03-28 14:06:30,575 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57538 - "GET /files/?dir=My%20Files HTTP/1.1" 404
+2025-03-28 14:06:30,576 - data_source.files - INFO - [files.py:60] - 디렉토리 'root' 조회 완료: 1 디렉토리, 0 파일
+2025-03-28 14:06:30,576 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 200
+2025-03-28 14:06:30,577 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57564 - "GET /files/ HTTP/1.1" 200
+2025-03-28 14:06:30,577 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:06:30,578 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:06:30,580 - data_source.files - INFO - [files.py:60] - 디렉토리 'root' 조회 완료: 1 디렉토리, 0 파일
+2025-03-28 14:06:30,580 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57564 - "OPTIONS /files/mkdir HTTP/1.1" 200
+2025-03-28 14:06:30,581 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 200
+2025-03-28 14:06:30,581 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57550 - "GET /files/ HTTP/1.1" 200
+2025-03-28 14:06:30,584 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57574 - "OPTIONS /files/mkdir HTTP/1.1" 200
+2025-03-28 14:06:30,584 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:06:30,585 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:06:30,585 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:06:30,586 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:06:30,586 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:06:30,587 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57586 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:06:30,587 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:06:30,589 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57574 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:06:30,633 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:06:30,635 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:06:30,637 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:06:30,637 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:06:30,638 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:06:30,639 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57538 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:06:30,639 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:06:30,639 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:57550 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:10:03,594 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:42652 - "OPTIONS /auth/login HTTP/1.1" 200
+2025-03-28 14:10:03,596 - data_source - DEBUG - [main.py:46] - Request: POST /auth/login
+2025-03-28 14:10:03,596 - data_source.auth - INFO - [auth.py:104] - Login attempt for username: admin
+2025-03-28 14:10:03,749 - data_source.auth - INFO - [auth.py:126] - User logged in successfully: admin
+2025-03-28 14:10:03,749 - data_source.auth - DEBUG - [auth.py:127] - Token issued for user: admin, expires in 60 minutes
+2025-03-28 14:10:03,750 - data_source - DEBUG - [main.py:48] - Response: POST /auth/login - Status: 200
+2025-03-28 14:10:03,750 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:42652 - "POST /auth/login HTTP/1.1" 200
+2025-03-28 14:10:03,801 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:10:03,802 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:10:03,802 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:42652 - "GET /files HTTP/1.1" 307
+2025-03-28 14:10:03,803 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:10:03,804 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:10:03,804 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:42652 - "GET /files HTTP/1.1" 307
+2025-03-28 14:10:03,821 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:10:03,821 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:10:03,821 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:42652 - "GET /files?dir=My%20Files HTTP/1.1" 307
+2025-03-28 14:10:03,828 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:10:03,829 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:03,832 - data_source.files - INFO - [files.py:60] - 디렉토리 'root' 조회 완료: 1 디렉토리, 0 파일
+2025-03-28 14:10:03,832 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 200
+2025-03-28 14:10:03,832 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:42652 - "GET /files/ HTTP/1.1" 200
+2025-03-28 14:10:03,839 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:10:03,840 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:10:03,840 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:03,841 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:03,842 - data_source.files - WARNING - [files.py:47] - 존재하지 않는 디렉토리 요청: My Files
+2025-03-28 14:10:03,843 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 404
+2025-03-28 14:10:03,843 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39654 - "GET /files/?dir=My%20Files HTTP/1.1" 404
+2025-03-28 14:10:03,844 - data_source.files - INFO - [files.py:60] - 디렉토리 'root' 조회 완료: 1 디렉토리, 0 파일
+2025-03-28 14:10:03,844 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 200
+2025-03-28 14:10:03,844 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39642 - "GET /files/ HTTP/1.1" 200
+2025-03-28 14:10:03,849 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:03,850 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:03,850 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:10:03,851 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39642 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:10:03,851 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:03,852 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:03,852 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:10:03,852 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39654 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:10:03,880 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:03,880 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:03,881 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:10:03,881 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:42652 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:10:03,882 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:03,883 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:03,883 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:10:03,883 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39666 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:10:09,202 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:10:09,203 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:10:09,203 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39672 - "GET /files HTTP/1.1" 307
+2025-03-28 14:10:09,205 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:10:09,206 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:10:09,206 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39684 - "GET /files HTTP/1.1" 307
+2025-03-28 14:10:09,266 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:10:09,267 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:09,270 - data_source.files - INFO - [files.py:60] - 디렉토리 'root' 조회 완료: 1 디렉토리, 0 파일
+2025-03-28 14:10:09,271 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 200
+2025-03-28 14:10:09,271 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39684 - "GET /files/ HTTP/1.1" 200
+2025-03-28 14:10:09,272 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:10:09,273 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:09,276 - data_source.files - INFO - [files.py:60] - 디렉토리 'root' 조회 완료: 1 디렉토리, 0 파일
+2025-03-28 14:10:09,276 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 200
+2025-03-28 14:10:09,277 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39672 - "GET /files/ HTTP/1.1" 200
+2025-03-28 14:10:09,299 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:09,300 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:09,301 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 401
+2025-03-28 14:10:09,301 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39672 - "POST /files/mkdir HTTP/1.1" 401
+2025-03-28 14:10:09,302 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 401
+2025-03-28 14:10:09,302 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39684 - "POST /files/mkdir HTTP/1.1" 401
+2025-03-28 14:10:09,307 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:09,307 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 401
+2025-03-28 14:10:09,308 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39694 - "POST /files/mkdir HTTP/1.1" 401
+2025-03-28 14:10:09,309 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:09,309 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 401
+2025-03-28 14:10:09,309 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:39708 - "POST /files/mkdir HTTP/1.1" 401
+2025-03-28 14:10:43,713 - data_source - DEBUG - [main.py:46] - Request: POST /auth/login
+2025-03-28 14:10:43,714 - data_source.auth - INFO - [auth.py:104] - Login attempt for username: admin
+2025-03-28 14:10:43,861 - data_source.auth - INFO - [auth.py:126] - User logged in successfully: admin
+2025-03-28 14:10:43,861 - data_source.auth - DEBUG - [auth.py:127] - Token issued for user: admin, expires in 60 minutes
+2025-03-28 14:10:43,862 - data_source - DEBUG - [main.py:48] - Response: POST /auth/login - Status: 200
+2025-03-28 14:10:43,862 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54538 - "POST /auth/login HTTP/1.1" 200
+2025-03-28 14:10:43,866 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:10:43,867 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:10:43,867 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54538 - "GET /files HTTP/1.1" 307
+2025-03-28 14:10:43,869 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:10:43,869 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:10:43,870 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54538 - "GET /files HTTP/1.1" 307
+2025-03-28 14:10:43,880 - data_source - DEBUG - [main.py:46] - Request: GET /files
+2025-03-28 14:10:43,881 - data_source - DEBUG - [main.py:48] - Response: GET /files - Status: 307
+2025-03-28 14:10:43,881 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54538 - "GET /files?dir=My%20Files HTTP/1.1" 307
+2025-03-28 14:10:43,894 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:10:43,895 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:10:43,897 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:43,897 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:43,898 - data_source.files - WARNING - [files.py:47] - 존재하지 않는 디렉토리 요청: My Files
+2025-03-28 14:10:43,899 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 404
+2025-03-28 14:10:43,899 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54552 - "GET /files/?dir=My%20Files HTTP/1.1" 404
+2025-03-28 14:10:43,900 - data_source.files - INFO - [files.py:60] - 디렉토리 'root' 조회 완료: 1 디렉토리, 0 파일
+2025-03-28 14:10:43,900 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 200
+2025-03-28 14:10:43,901 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54538 - "GET /files/ HTTP/1.1" 200
+2025-03-28 14:10:43,902 - data_source - DEBUG - [main.py:46] - Request: GET /files/
+2025-03-28 14:10:43,905 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:43,908 - data_source.files - INFO - [files.py:60] - 디렉토리 'root' 조회 완료: 1 디렉토리, 0 파일
+2025-03-28 14:10:43,909 - data_source - DEBUG - [main.py:48] - Response: GET /files/ - Status: 200
+2025-03-28 14:10:43,909 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54552 - "GET /files/ HTTP/1.1" 200
+2025-03-28 14:10:43,951 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:43,952 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:43,953 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:10:43,953 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54538 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:10:43,954 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:43,954 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:43,955 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:10:43,955 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54556 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:10:43,960 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:43,961 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:43,961 - data_source - DEBUG - [main.py:46] - Request: POST /files/mkdir
+2025-03-28 14:10:43,962 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:10:43,962 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54552 - "POST /files/mkdir HTTP/1.1" 422
+2025-03-28 14:10:43,962 - data_source.auth - DEBUG - [auth.py:69] - Authenticated user: admin
+2025-03-28 14:10:43,963 - data_source - DEBUG - [main.py:48] - Response: POST /files/mkdir - Status: 422
+2025-03-28 14:10:43,963 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:54556 - "POST /files/mkdir HTTP/1.1" 422
