@@ -488,3 +488,361 @@
 2025-03-28 14:31:50,585 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/received
 2025-03-28 14:31:50,586 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
 2025-03-28 14:31:50,586 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:45:46,431 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:45:46,535 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:45:46,536 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:45:46,536 - uvicorn.error - INFO - [server.py:93] - Finished server process [215177]
+2025-03-28 14:45:46,931 - uvicorn.error - INFO - [server.py:83] - Started server process [225756]
+2025-03-28 14:45:46,931 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:45:46,932 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:45:46,932 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:45:46,932 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:45:46,934 - data_sink - INFO - [main.py:79] - 수신된 파일 디렉토리 생성됨: ./data/received
+2025-03-28 14:45:46,935 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:45:46,936 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:46:17,913 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:46:18,019 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:46:18,023 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:46:18,048 - uvicorn.error - INFO - [server.py:93] - Finished server process [225756]
+2025-03-28 14:46:18,397 - uvicorn.error - INFO - [server.py:83] - Started server process [226154]
+2025-03-28 14:46:18,397 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:46:18,397 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:46:18,398 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:46:18,398 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:46:18,399 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/received
+2025-03-28 14:46:18,400 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:46:18,401 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:46:41,740 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:46:41,847 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:46:41,848 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:46:41,848 - uvicorn.error - INFO - [server.py:93] - Finished server process [226154]
+2025-03-28 14:46:42,167 - uvicorn.error - INFO - [server.py:83] - Started server process [226499]
+2025-03-28 14:46:42,167 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:46:42,167 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:46:42,168 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:46:42,168 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:46:42,169 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/received
+2025-03-28 14:46:42,170 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:46:42,170 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:48:36,238 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:48:36,340 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:48:36,340 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:48:36,340 - uvicorn.error - INFO - [server.py:93] - Finished server process [226499]
+2025-03-28 14:48:41,458 - data_sink - INFO - [main.py:100] - Uvicorn으로 Data Sink API 서비스 실행 중...
+2025-03-28 14:48:41,791 - uvicorn.error - INFO - [server.py:83] - Started server process [228073]
+2025-03-28 14:48:41,791 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:48:41,792 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:48:41,792 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:48:41,792 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:48:41,793 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/received
+2025-03-28 14:48:41,795 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:48:41,795 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:49:17,579 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38326 - "OPTIONS /received HTTP/1.1" 200
+2025-03-28 14:49:17,583 - data_sink - DEBUG - [main.py:46] - Request: GET /received
+2025-03-28 14:49:17,583 - data_sink - DEBUG - [main.py:48] - Response: GET /received - Status: 307
+2025-03-28 14:49:17,583 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38326 - "GET /received HTTP/1.1" 307
+2025-03-28 14:49:17,587 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38326 - "OPTIONS /received/ HTTP/1.1" 200
+2025-03-28 14:49:17,589 - data_sink - DEBUG - [main.py:46] - Request: GET /received/
+2025-03-28 14:49:17,591 - data_sink.files - DEBUG - [files.py:32] - 수신 파일 목록 요청 (사용자: admin)
+2025-03-28 14:49:17,594 - data_sink.files - INFO - [files.py:45] - 수신 파일 목록 조회 완료: 0 파일
+2025-03-28 14:49:17,594 - data_sink - DEBUG - [main.py:48] - Response: GET /received/ - Status: 200
+2025-03-28 14:49:17,594 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38340 - "GET /received/ HTTP/1.1" 200
+2025-03-28 14:49:19,421 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38340 - "OPTIONS /received HTTP/1.1" 200
+2025-03-28 14:49:19,423 - data_sink - DEBUG - [main.py:46] - Request: GET /received
+2025-03-28 14:49:19,424 - data_sink - DEBUG - [main.py:48] - Response: GET /received - Status: 307
+2025-03-28 14:49:19,424 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38340 - "GET /received HTTP/1.1" 307
+2025-03-28 14:49:19,427 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38340 - "OPTIONS /received/ HTTP/1.1" 200
+2025-03-28 14:49:19,430 - data_sink - DEBUG - [main.py:46] - Request: GET /received/
+2025-03-28 14:49:19,431 - data_sink.files - DEBUG - [files.py:32] - 수신 파일 목록 요청 (사용자: admin)
+2025-03-28 14:49:19,433 - data_sink.files - INFO - [files.py:45] - 수신 파일 목록 조회 완료: 0 파일
+2025-03-28 14:49:19,434 - data_sink - DEBUG - [main.py:48] - Response: GET /received/ - Status: 200
+2025-03-28 14:49:19,434 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38342 - "GET /received/ HTTP/1.1" 200
+2025-03-28 14:49:20,482 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38342 - "OPTIONS /received HTTP/1.1" 200
+2025-03-28 14:49:20,484 - data_sink - DEBUG - [main.py:46] - Request: GET /received
+2025-03-28 14:49:20,484 - data_sink - DEBUG - [main.py:48] - Response: GET /received - Status: 307
+2025-03-28 14:49:20,485 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38342 - "GET /received HTTP/1.1" 307
+2025-03-28 14:49:20,488 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38342 - "OPTIONS /received/ HTTP/1.1" 200
+2025-03-28 14:49:20,490 - data_sink - DEBUG - [main.py:46] - Request: GET /received/
+2025-03-28 14:49:20,491 - data_sink.files - DEBUG - [files.py:32] - 수신 파일 목록 요청 (사용자: admin)
+2025-03-28 14:49:20,494 - data_sink.files - INFO - [files.py:45] - 수신 파일 목록 조회 완료: 0 파일
+2025-03-28 14:49:20,495 - data_sink - DEBUG - [main.py:48] - Response: GET /received/ - Status: 200
+2025-03-28 14:49:20,495 - uvicorn.access - INFO - [h11_impl.py:473] - 127.0.0.1:38344 - "GET /received/ HTTP/1.1" 200
+2025-03-28 14:49:46,659 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:49:46,760 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:49:46,760 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:49:46,760 - uvicorn.error - INFO - [server.py:93] - Finished server process [228073]
+2025-03-28 14:49:47,085 - uvicorn.error - INFO - [server.py:83] - Started server process [229045]
+2025-03-28 14:49:47,086 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:49:47,086 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:49:47,086 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:49:47,086 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:49:47,087 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:49:47,088 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:49:47,088 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:50:17,502 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:50:17,603 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:50:17,603 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:50:17,603 - uvicorn.error - INFO - [server.py:93] - Finished server process [229045]
+2025-03-28 14:50:17,954 - uvicorn.error - INFO - [server.py:83] - Started server process [229418]
+2025-03-28 14:50:17,954 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:50:17,954 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:50:17,955 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:50:17,955 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:50:17,956 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:50:17,957 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:50:17,957 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:50:33,094 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:50:33,199 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:50:33,199 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:50:33,200 - uvicorn.error - INFO - [server.py:93] - Finished server process [229418]
+2025-03-28 14:50:33,526 - uvicorn.error - INFO - [server.py:83] - Started server process [229632]
+2025-03-28 14:50:33,527 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:50:33,527 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:50:33,527 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:50:33,528 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:50:33,528 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:50:33,530 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:50:33,530 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:50:37,066 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:50:37,172 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:50:37,172 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:50:37,172 - uvicorn.error - INFO - [server.py:93] - Finished server process [229632]
+2025-03-28 14:50:37,500 - uvicorn.error - INFO - [server.py:83] - Started server process [229644]
+2025-03-28 14:50:37,501 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:50:37,502 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:50:37,502 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:50:37,503 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:50:37,504 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:50:37,506 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:50:37,506 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:54:25,929 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:54:26,033 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:54:26,033 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:54:26,034 - uvicorn.error - INFO - [server.py:93] - Finished server process [229644]
+2025-03-28 14:54:26,351 - uvicorn.error - INFO - [server.py:83] - Started server process [232536]
+2025-03-28 14:54:26,352 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:54:26,352 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:54:26,352 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:54:26,352 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:54:26,354 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:54:26,355 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:54:26,355 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:54:42,317 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:54:42,419 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:54:42,419 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:54:42,420 - uvicorn.error - INFO - [server.py:93] - Finished server process [232536]
+2025-03-28 14:54:42,754 - uvicorn.error - INFO - [server.py:83] - Started server process [232750]
+2025-03-28 14:54:42,754 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:54:42,755 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:54:42,755 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:54:42,755 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:54:42,756 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:54:42,758 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:54:42,758 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:54:52,187 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:54:52,292 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:54:52,292 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:54:52,293 - uvicorn.error - INFO - [server.py:93] - Finished server process [232750]
+2025-03-28 14:54:52,712 - uvicorn.error - INFO - [server.py:83] - Started server process [232859]
+2025-03-28 14:54:52,713 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:54:52,713 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:54:52,714 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:54:52,714 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:54:52,715 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:54:52,716 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:54:52,716 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:54:53,628 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:54:53,729 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:54:53,729 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:54:53,729 - uvicorn.error - INFO - [server.py:93] - Finished server process [232859]
+2025-03-28 14:54:54,068 - uvicorn.error - INFO - [server.py:83] - Started server process [232932]
+2025-03-28 14:54:54,069 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:54:54,069 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:54:54,069 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:54:54,069 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:54:54,070 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:54:54,072 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:54:54,072 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:54:59,115 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:54:59,217 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:54:59,217 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:54:59,218 - uvicorn.error - INFO - [server.py:93] - Finished server process [232932]
+2025-03-28 14:54:59,545 - uvicorn.error - INFO - [server.py:83] - Started server process [232968]
+2025-03-28 14:54:59,545 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:54:59,545 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:54:59,546 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:54:59,546 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:54:59,547 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:54:59,548 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:54:59,548 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:55:02,013 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:55:02,116 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:55:02,116 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:55:02,117 - uvicorn.error - INFO - [server.py:93] - Finished server process [232968]
+2025-03-28 14:55:02,449 - uvicorn.error - INFO - [server.py:83] - Started server process [232991]
+2025-03-28 14:55:02,449 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:55:02,450 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:55:02,450 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:55:02,450 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:55:02,451 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:55:02,452 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:55:02,452 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:55:18,188 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:55:18,294 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:55:18,294 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:55:18,295 - uvicorn.error - INFO - [server.py:93] - Finished server process [232991]
+2025-03-28 14:55:18,616 - uvicorn.error - INFO - [server.py:83] - Started server process [233237]
+2025-03-28 14:55:18,616 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:55:18,617 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:55:18,617 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:55:18,617 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:55:18,618 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:55:18,619 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:55:18,620 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 14:56:06,090 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 14:56:06,191 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 14:56:06,192 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 14:56:06,192 - uvicorn.error - INFO - [server.py:93] - Finished server process [233237]
+2025-03-28 14:56:06,519 - uvicorn.error - INFO - [server.py:83] - Started server process [233866]
+2025-03-28 14:56:06,520 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 14:56:06,520 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 14:56:06,520 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 14:56:06,520 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 14:56:06,522 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 14:56:06,523 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 14:56:06,523 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 15:01:23,875 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 15:01:23,976 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 15:01:23,976 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 15:01:23,977 - uvicorn.error - INFO - [server.py:93] - Finished server process [233866]
+2025-03-28 15:01:24,438 - uvicorn.error - INFO - [server.py:83] - Started server process [237828]
+2025-03-28 15:01:24,439 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 15:01:24,439 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 15:01:24,439 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 15:01:24,440 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 15:01:24,441 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 15:01:24,442 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 15:01:24,442 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 15:02:11,074 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 15:02:11,179 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 15:02:11,180 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 15:02:11,180 - uvicorn.error - INFO - [server.py:93] - Finished server process [237828]
+2025-03-28 15:02:11,535 - uvicorn.error - INFO - [server.py:83] - Started server process [238458]
+2025-03-28 15:02:11,535 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 15:02:11,535 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 15:02:29,054 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 15:02:29,156 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 15:02:29,156 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 15:02:29,157 - uvicorn.error - INFO - [server.py:93] - Finished server process [238458]
+2025-03-28 15:02:29,612 - uvicorn.error - INFO - [server.py:83] - Started server process [238711]
+2025-03-28 15:02:29,612 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 15:02:29,613 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 15:02:59,458 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 15:02:59,560 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 15:02:59,560 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 15:02:59,560 - uvicorn.error - INFO - [server.py:93] - Finished server process [238711]
+2025-03-28 15:02:56,966 - uvicorn.error - INFO - [server.py:83] - Started server process [239071]
+2025-03-28 15:02:56,966 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 15:02:56,969 - uvicorn.error - ERROR - [on.py:121] - Traceback (most recent call last):
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/starlette/routing.py", line 692, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 334, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: lifespan() takes 0 positional arguments but 1 was given
+
+2025-03-28 15:02:56,969 - uvicorn.error - ERROR - [on.py:59] - Application startup failed. Exiting.
+2025-03-28 15:03:44,559 - uvicorn.error - INFO - [server.py:83] - Started server process [239619]
+2025-03-28 15:03:44,560 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 15:03:44,562 - uvicorn.error - ERROR - [on.py:121] - Traceback (most recent call last):
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/starlette/routing.py", line 692, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 334, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: lifespan() takes 0 positional arguments but 1 was given
+
+2025-03-28 15:03:44,563 - uvicorn.error - ERROR - [on.py:59] - Application startup failed. Exiting.
+2025-03-28 15:04:17,141 - uvicorn.error - INFO - [server.py:83] - Started server process [240040]
+2025-03-28 15:04:17,142 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 15:04:17,143 - uvicorn.error - ERROR - [on.py:121] - Traceback (most recent call last):
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/starlette/routing.py", line 692, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ymatics/.virtualenvs/sovity-ce-local-demo-datasource-and-datasink/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 334, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: lifespan() takes 0 positional arguments but 1 was given
+
+2025-03-28 15:04:17,143 - uvicorn.error - ERROR - [on.py:59] - Application startup failed. Exiting.
+2025-03-28 15:04:34,802 - uvicorn.error - INFO - [server.py:83] - Started server process [240274]
+2025-03-28 15:04:34,802 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 15:04:34,802 - uvicorn.error - INFO - [on.py:62] - Application startup complete.
+2025-03-28 15:04:59,560 - uvicorn.error - INFO - [server.py:263] - Shutting down
+2025-03-28 15:04:59,660 - uvicorn.error - INFO - [on.py:67] - Waiting for application shutdown.
+2025-03-28 15:04:59,662 - uvicorn.error - INFO - [on.py:76] - Application shutdown complete.
+2025-03-28 15:04:59,662 - uvicorn.error - INFO - [server.py:93] - Finished server process [240274]
+2025-03-28 15:05:00,007 - uvicorn.error - INFO - [server.py:83] - Started server process [240608]
+2025-03-28 15:05:00,007 - uvicorn.error - INFO - [on.py:48] - Waiting for application startup.
+2025-03-28 15:05:00,007 - data_sink - INFO - [main.py:71] - Data Sink API 서비스가 시작되었습니다.
+2025-03-28 15:05:00,008 - data_sink - INFO - [main.py:72] - 호스트: 127.0.0.1, 포트: 8002
+2025-03-28 15:05:00,008 - data_sink - INFO - [main.py:73] - 로그 레벨: debug
+2025-03-28 15:05:00,009 - data_sink - DEBUG - [main.py:81] - 수신된 파일 디렉토리 확인됨: ./data/Received Files
+2025-03-28 15:05:00,011 - data_sink - DEBUG - [main.py:88] - 수신된 파일 디렉토리 확인됨: ./data/My Files
+2025-03-28 15:05:00,011 - uvicorn.error - INFO - [on.py:62] - Application startup complete.

@@ -73,19 +73,19 @@ async def startup_event():
     logger.info(f"로그 레벨: {settings.get('log_level')}")
 
     # 수신된 파일 디렉토리 확인
-    RECEIVED_DIR = os.path.join("./data", "received")
-    if not os.path.isdir(RECEIVED_DIR):
-        os.makedirs(RECEIVED_DIR, exist_ok=True)
-        logger.info(f"수신된 파일 디렉토리 생성됨: {RECEIVED_DIR}")
+    received_dir = os.path.join("./data", "Received Files")
+    if not os.path.isdir(received_dir):
+        os.makedirs(received_dir, exist_ok=True)
+        logger.info(f"수신된 파일 디렉토리 생성됨: {received_dir}")
     else:
-        logger.debug(f"수신된 파일 디렉토리 확인됨: {RECEIVED_DIR}")
+        logger.debug(f"수신된 파일 디렉토리 확인됨: {received_dir}")
 
-    MY_FILES_DIR = os.path.join("./data", "My Files")
-    if not os.path.isdir(MY_FILES_DIR):
-        os.makedirs(MY_FILES_DIR, exist_ok=True)
-        logger.info(f"수신된 파일 디렉토리 생성됨: {MY_FILES_DIR}")
+    my_files_dir = os.path.join("./data", "My Files")
+    if not os.path.isdir(my_files_dir):
+        os.makedirs(my_files_dir, exist_ok=True)
+        logger.info(f"수신된 파일 디렉토리 생성됨: {my_files_dir}")
     else:
-        logger.debug(f"수신된 파일 디렉토리 확인됨: {MY_FILES_DIR}")
+        logger.debug(f"수신된 파일 디렉토리 확인됨: {my_files_dir}")
 
 
 # 라우터 등록

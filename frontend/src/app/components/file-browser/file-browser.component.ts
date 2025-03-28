@@ -289,17 +289,55 @@ constructor(
     this.uploadInProgress = true;
     this.uploadFileName = file.name;
 
-    this.dataSourceService.uploadFile(file, this.currentPath).subscribe({ // dataSourceService 사용
-      next: () => {
+    // 먼저 파일이 이미 존재하는지 확인
+    const existingFile = this.tableDataSource.data.find(
+      item => !item.isDirectory && item.name === file.name
+    );
+
+    // 기존 파일이 있으면 먼저 삭제
+    const uploadFile = () => {
+      this.dataSourceService.uploadFile(file, this.currentPath).subscribe({
+        next: () => {
+          this.uploadInProgress = false;
+          this.uploadFileName = '';
+          // 짧은 지연 후 디렉토리 다시 로드
+          setTimeout(() => {
+            this.loadDirectory(this.currentPath);
+          }, 300);
+        },
+        error: (err: any) => {
+          this.uploadInProgress = false;
+          alert('File upload failed: ' + (err.error?.detail || err.message));
+        }
+      });
+    };
+
+    if (existingFile) {
+      // 확인 메시지 표시
+      if (confirm(`File '${file.name}' already exists. Replace it?`)) {
+        const itemPath = this.currentPath ? `${this.currentPath}/${file.name}` : file.name;
+
+        // 먼저 기존 파일 삭제
+        this.dataSourceService.deleteItem(itemPath).subscribe({
+          next: () => {
+            // 삭제 성공 후 업로드 진행
+            setTimeout(uploadFile, 500); // 지연 추가
+          },
+          error: (err) => {
+            this.uploadInProgress = false;
+            alert(`Failed to replace file: ${err.error?.detail || ''}`);
+          }
+        });
+      } else {
         this.uploadInProgress = false;
-        this.uploadFileName = '';
-        this.loadDirectory(this.currentPath);
-      },
-      error: (err: any) => { // 타입 명시
-        this.uploadInProgress = false;
-        alert('File upload failed: ' + (err.error?.detail || err.message));
       }
-    });
+    } else {
+      // 기존 파일 없으면 바로 업로드
+      uploadFile();
+    }
+
+    // 입력 요소 초기화 (같은 파일을 다시 선택할 수 있도록)
+    event.target.value = '';
   }
 
   /**

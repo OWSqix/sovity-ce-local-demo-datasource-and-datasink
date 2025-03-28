@@ -1,7 +1,6 @@
 # backend/data_source/main.py
 
 import os
-import logging
 import logging.config
 import sys
 
@@ -75,12 +74,12 @@ async def startup_event():
     logger.info(f"로그 레벨: {settings.get('log_level')}")
 
     # 기본 데이터 디렉토리 생성
-    DATA_DIR = "./data"
-    if not os.path.isdir(DATA_DIR):
-        os.makedirs(DATA_DIR)
-        logger.info(f"기본 데이터 디렉토리 생성됨: {DATA_DIR}")
+    data_dir = "./data"
+    if not os.path.isdir(data_dir):
+        os.makedirs(data_dir)
+        logger.info(f"기본 데이터 디렉토리 생성됨: {data_dir}")
     else:
-        logger.debug(f"기본 데이터 디렉토리 확인됨: {DATA_DIR}")
+        logger.debug(f"기본 데이터 디렉토리 확인됨: {data_dir}")
 
 
 # 앱 실행 코드 (직접 실행 시)

@@ -78,6 +78,18 @@ def upload_file(dir: Optional[str] = Form(None), file: UploadFile = File(...), u
     file_path = os.path.join(upload_dir, file.filename)
 
     try:
+        # 기존 파일이 있는 경우 확실히 삭제
+        if os.path.exists(file_path):
+            try:
+                os.remove(file_path)
+                logger.info(f"기존 파일을 덮어쓰기 위해 삭제: {file_path}")
+                # 작은 지연을 추가하여 파일 시스템이 업데이트될 시간을 줌
+                import time
+                time.sleep(0.1)
+            except Exception as e:
+                logger.error(f"기존 파일 삭제 중 오류 발생: {str(e)}")
+                raise HTTPException(status_code=500, detail=f"Failed to replace existing file: {str(e)}")
+
         # 업로드된 파일을 디스크에 저장
         with open(file_path, "wb") as out_file:
             shutil.copyfileobj(file.file, out_file)
