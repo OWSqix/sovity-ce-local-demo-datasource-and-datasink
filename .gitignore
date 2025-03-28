@@ -1,6 +1,7 @@
 venv
 backend/data_source/data
 backend/data_sink/data
+backend/logs/
 frontend/node_modules
 frontend/.angular
 Pipfile
