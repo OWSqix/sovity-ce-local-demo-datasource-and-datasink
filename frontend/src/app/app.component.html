@@ -1,0 +1,14 @@
+<!-- frontend/src/app/app.component.html -->
+<nav *ngIf="auth.isLoggedIn()" class="app-nav">
+  <a routerLink="/files" routerLinkActive="active">My Files</a>
+  <a routerLink="/received" routerLinkActive="active">Received Files</a>
+  <a href="#" (click)="logout($event)">Logout</a>
+</nav>
+
+<!-- 인증되지 않은 상태(로그인 전)이면 안내 문구 -->
+<div *ngIf="!auth.isLoggedIn()" class="not-logged-in">
+  <p>로그인이 필요합니다.</p>
+</div>
+
+<!-- 라우팅 영역 -->
+<router-outlet></router-outlet>

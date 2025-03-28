@@ -1,10 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<!-- src/app/components/file-browser/file-browser.component.html -->
+<div class="file-browser">
+  <h2>My Files {{ currentPath ? ' - ' + currentPath : '' }}</h2>
+
+  <!-- Navigation controls -->
+  <button (click)="goUp()" [disabled]="!currentPath">Up</button>
+  <span *ngIf="currentPath">{{ currentPath }}</span>
+
+  <!-- New folder creation -->
+  <div class="new-folder">
+    <input type="text" [(ngModel)]="newFolderName" placeholder="New folder name" />
+    <button (click)="createFolder()" [disabled]="!newFolderName">Create Folder</button>
+  </div>
+
+  <!-- File upload -->
+  <div class="upload-section">
+    <input type="file" (change)="onFileSelected($event)" />
+    <span *ngIf="uploadInProgress">Uploading {{ uploadFileName }}...</span>
+  </div>
+
+  <!-- Directory and file list -->
+  <ul class="file-list">
+    <li *ngFor="let dir of contents?.directories">
+      📁 <b (click)="openDirectory(dir)">{{ dir }}</b>
+      <button (click)="deleteItem(dir, true)">Delete</button>
+    </li>
+    <li *ngFor="let file of contents?.files">
+      📄 {{ file.name }} ({{ file.size }} bytes)
+      <button (click)="selectFile(file)">Details</button>
+      <button (click)="downloadFile(file)">Download</button>
+      <button (click)="deleteItem(file.name, false)">Delete</button>
+    </li>
+  </ul>
+
+  <!-- File details -->
+  <div *ngIf="selectedFileInfo" class="file-details">
+    <h3>File Details</h3>
+    <p>Name: {{ selectedFileInfo.name }}</p>
+    <p>Size: {{ selectedFileInfo.size }} bytes</p>
+  </div>
+</div>
