@@ -11,7 +11,7 @@ def parse_arguments() -> Dict[str, Any]:
     Returns:
         Dict[str, Any]: 설정 옵션이 포함된 딕셔너리
     """
-    parser = argparse.ArgumentParser(description="Data Space Connector 백엔드 서비스")
+    parser = argparse.ArgumentParser(description="Data Space Connector Data Source/Sink Backend")
 
     parser.add_argument(
         "--log-level",

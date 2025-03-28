@@ -23,7 +23,7 @@ import {MatSnackBar} from '@angular/material/snack-bar';
   ],
   template: `
     <mat-toolbar color="primary" *ngIf="auth.isLoggedIn()">
-      <span>Data Space Connector</span>
+      <span>Data Space Connector Data Source/Sink</span>
       <span class="spacer"></span>
 
       <nav class="nav-links">
