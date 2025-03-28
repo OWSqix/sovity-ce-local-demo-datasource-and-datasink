@@ -30,7 +30,6 @@ export class AuthInterceptor implements HttpInterceptor {
     if (isDataSourceApi || isDataSinkApi) {
       const token = this.auth.getToken();
       if (token) {
-        console.log('token is exist: ', token)
         const cloned = req.clone({
           setHeaders: {
             Authorization: `Bearer ${token}`

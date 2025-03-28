@@ -51,7 +51,7 @@ async def log_requests(request: Request, call_next):
 # CORS 미들웨어 설정
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:4200"],
+    allow_origins=["http://localhost:4200", "http://host.docker.internal:4200"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     logger.info(f"Uvicorn으로 Data Source API 서비스 실행 중...")
     uvicorn.run(
         "backend.data_source.main:app",
-        host=settings.get("host"),
+        host="0.0.0.0",
         port=settings.get("port"),
         reload=True,
         log_level=settings.get("log_level")
