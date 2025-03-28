@@ -1,7 +1,6 @@
 # backend/data_sink/main.py
 
 import os
-import logging
 import logging.config
 import sys
 
