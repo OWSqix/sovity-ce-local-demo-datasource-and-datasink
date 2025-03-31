@@ -97,3 +97,15 @@ Build docker compose and enjoy sharing
 ```
 docker compose up -d --build
 ```
+
+## How to use
+
+#### 1. Create an account such as admin
+#### 2. Save your auth token
+#### 3. Upload file(anything)
+#### 4. Add asset with RESTAPI(GET) : http://provider-backend:8003/file/download?path={sample-data.json}
+#### 4-1. Also you need to add Authorization token : Bearer {your_auth_token}
+#### 5. Add offer and make contract in consumer connector ui.
+#### 6. Transfer data to datasink in consumer : http://consumer-backend:8002/receive-file
+#### 6.1. Also you need to add Authorization token : Bearer {your_auth_token}
+#### 7. Find data in consumer-frontend - received data
