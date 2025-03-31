@@ -65,7 +65,7 @@ export class FileBrowserComponent implements OnInit {
   itemToDelete: FileSystemItem | null = null;
   newFolderName = '';
   private readonly restrictedPaths = ['', 'data'];
-  private readonly defaultFolderName = 'My Files';
+  private readonly defaultFolderName = 'uploaded';
 
   @ViewChild('createFolderDialog') createFolderDialog!: TemplateRef<any>;
   @ViewChild('deleteDialog') deleteDialog!: TemplateRef<any>;
@@ -94,7 +94,7 @@ constructor(
   loadDirectory(path: string): void {
     if (this.restrictedPaths.includes(path)) {
       // Redirect to default folder instead
-      this.loadDirectory('My Files');
+      this.loadDirectory('uploaded');
       return;
     }
 

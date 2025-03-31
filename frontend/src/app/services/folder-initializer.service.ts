@@ -22,13 +22,13 @@ export class FolderInitializerService {
         const foldersToCreate = [];
 
         // Check if "My Files" needs to be created
-        if (!existingDirs.includes("My Files")) {
-          foldersToCreate.push(this.createDirectorySafe('My Files'));
+        if (!existingDirs.includes("uploaded")) {
+          foldersToCreate.push(this.createDirectorySafe('uploaded'));
         }
 
         // Check if "Received Files" needs to be created
-        if (!existingDirs.includes('Received Files')) {
-          foldersToCreate.push(this.createDirectorySafe('Received Files'));
+        if (!existingDirs.includes('received')) {
+          foldersToCreate.push(this.createDirectorySafe('received'));
         }
 
         if (foldersToCreate.length === 0) {

@@ -10,13 +10,13 @@ export const routes: Routes = [
     path: 'files',
     component: FileBrowserComponent,
     canActivate: [AuthGuard],
-    data: { initialPath: 'My Files' }  // Pass initial directory path
+    data: { initialPath: 'uploaded' }  // Pass initial directory path
   },
   {
     path: 'received',
     component: ReceivedFilesComponent,
     canActivate: [AuthGuard],
-    data: { initialPath: 'Received Files' }  // Pass initial directory path
+    data: { initialPath: 'received' }  // Pass initial directory path
   },
   { path: '', redirectTo: 'files', pathMatch: 'full' },
   { path: '**', redirectTo: 'files' }

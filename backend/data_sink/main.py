@@ -67,14 +67,14 @@ async def startup_event():
     logger.info(f"Host: {settings.get('host')}, Port: {settings.get('port')}")
     logger.info(f"Log level: {settings.get('log_level')}")
 
-    received_dir = os.path.join("./data", "Received Files")
+    received_dir = os.path.join("./data", "received")
     if not os.path.isdir(received_dir):
         os.makedirs(received_dir, exist_ok=True)
         logger.info(f"File directory generated: {received_dir}")
     else:
         logger.debug(f"File directory check: {received_dir}")
 
-    my_files_dir = os.path.join("./data", "My Files")
+    my_files_dir = os.path.join("./data", "uploaded")
     if not os.path.isdir(my_files_dir):
         os.makedirs(my_files_dir, exist_ok=True)
         logger.info(f"File directory generated: {my_files_dir}")

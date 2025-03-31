@@ -18,7 +18,7 @@ logger = setup_logger("data_sink.files")
 
 router = APIRouter(prefix="/received")
 
-RECEIVED_DIR = os.path.join(DATA_DIR, "Received Files")
+RECEIVED_DIR = os.path.join(DATA_DIR, "received")
 os.makedirs(RECEIVED_DIR, exist_ok=True)
 logger.debug(f"File directory received: {RECEIVED_DIR}")
 
