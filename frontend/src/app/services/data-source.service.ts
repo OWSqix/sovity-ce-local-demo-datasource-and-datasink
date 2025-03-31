@@ -50,7 +50,6 @@ export class DataSourceService {
   deleteItem(path: string) {
     const params = new HttpParams().set('path', path);
     return this.http.delete(`${this.apiBase}/files`, { params }).pipe(
-      // 삭제 후 잠시 대기하여 시스템이 업데이트될 시간을 줌
       delay(100),
       catchError(error => {
         console.error('Error deleting item:', error);

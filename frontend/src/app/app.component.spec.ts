@@ -14,7 +14,7 @@ describe('AppComponent', () => {
         {
           provide: AuthService,
           useValue: {
-            isLoggedIn: () => true, // 테스트 시 가짜 로그인 상태로
+            isLoggedIn: () => true,
           },
         },
       ],
