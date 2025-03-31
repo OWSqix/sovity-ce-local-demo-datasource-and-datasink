@@ -163,7 +163,6 @@ def download_file(path: str, user: str = Depends(get_current_user)):
         raise HTTPException(status_code=404, detail="File not found")
 
     try:
-        # Starlette FileResponse를 사용하여 파일 전송
         from fastapi.responses import FileResponse
         file_size = os.path.getsize(file_path)
         filename = os.path.basename(file_path)
