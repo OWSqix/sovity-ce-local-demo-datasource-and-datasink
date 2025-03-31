@@ -74,7 +74,7 @@ async def receive_file(
         raise HTTPException(status_code=500, detail=str(e))
 
     return {
-        "msg": "File is successfully transfered",
+        "msg": "File is successfully transferred",
         "size": len(body),
         "filename": filename,
         "content_type": content_type
