@@ -16,7 +16,7 @@ Copy backend and frontend to sovity-edc-ce/docs/deployment-guide/goals/local-dem
 cp ./frontend {path_to_sovity-edc-ce}/docs/deployment-guide/goals/local-demo-ce/
 cp ./backend {path_to_sovity-edc-ce}/docs/deployment-guide/goals/local-demo-ce/
 ```
-Fix docker-compose.yaml
+Fix sovity-edc-ce/docs/deployment-guide/goals/local-demo-ce/docker-compose.yaml
 ```angular2html
 in "provider-connector"
 -> change: sovity.edc.fqdn.internal from 'localhost' to 'provider-connector'
